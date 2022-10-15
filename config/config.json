@@ -1,0 +1,34 @@
+{
+  "development": {
+    "username": "ulhid9lygekcehw2",
+    "password": "yPbk0NZaCDgGCMUryZ3D",
+    "database": "bkwzdgruxsesevcjfqpq",
+    "host": "bkwzdgruxsesevcjfqpq-mysql.services.clever-cloud.com",
+    "dialect": "mysql",
+    "define": {
+      "timestamps": true,
+      "freezeTableName": true,
+      "createdAt": "created_at",
+      "updatedAt": "updated_at",
+      "charset": "utf8mb4",
+      "collate": "utf8mb4_unicode_ci"
+
+    },
+    "port": "3306",
+    "logging": false
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
